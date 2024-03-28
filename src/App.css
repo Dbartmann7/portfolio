@@ -1,0 +1,8 @@
+.App{
+  --appBackground: rgb(25, 25, 25);
+  background-color: var(--appBackground);
+  min-height: 100vh;
+  min-width: 100vw;
+  overflow: hidden;
+  color: white;
+}

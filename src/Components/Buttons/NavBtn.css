@@ -1,0 +1,32 @@
+.button-container{
+    position: relative;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 5px;
+    margin-right: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.button-container>p{
+    position: relative;
+    font-size: 200%;
+    width: 100%;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: center;
+}
+.button{
+    min-width:100%;
+    min-height: 100%;
+    padding: 0;
+    margin: 0;
+    opacity: 0;
+    position: absolute;
+}
+.button-icon{
+    width: 75%;
+    height: 75%;
+    color: white;
+}

@@ -1,0 +1,66 @@
+.project-item-container{
+    position: relative;
+    overflow-y: scroll;
+}
+.project-img{
+    width: 280px;
+    height: 200px;
+}
+
+.project-button{
+    position: absolute;
+    top:0px;
+    right:5px;
+    width:50px;
+    height: 50px;
+    padding: 0;
+    margin: 0;
+    &:hover{
+        .project-icon{
+            color: rgb(53, 140, 150) !important;
+        }
+    }
+}
+
+.project-icon{
+    color: white;
+    
+    &:hover{
+        background-color: blueviolet;
+    }
+}
+
+@keyframes fade-in {
+    from {opacity: 0%}
+    to {opacity: 100%}
+}
+@keyframes fade-out {
+    from {opacity: 100%}
+    to {opacity: 0%}
+}
+.info-container{
+    position: absolute;
+    width:calc(100% - 20px);
+    min-height: calc(100% - 20px);
+    padding:10px;
+    top:0;
+    opacity: 0%;
+    z-index: 999;
+    background-color: rgb(28, 28, 28) ;
+    animation: fade-in 0.8s;
+    opacity: 100%;
+}
+.project-name{
+    margin: 0;
+}
+.project-description{
+    width: 100%;
+    overflow-wrap: break-word;
+}
+
+.project-links{
+    display: flex;
+    flex-direction: row;
+    gap:5px;
+    margin-bottom: 10px;
+}

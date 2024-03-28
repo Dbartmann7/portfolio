@@ -1,0 +1,10 @@
+body {
+  margin: 0;
+  --appBackground: rgb(25, 25, 25);
+  background-color: var(--appBackground);
+  min-height: 100vh;
+  min-width: 100vw;
+  color: white;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+

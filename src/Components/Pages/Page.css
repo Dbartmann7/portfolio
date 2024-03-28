@@ -1,0 +1,22 @@
+.page-main{
+    width:calc( 100% - 10px);
+    margin: 5px;
+    height: fit-content;
+}
+.page-container{
+    height: 100vh;
+    overflow-y: scroll;
+    padding-left:20px;
+    padding-right:20px;
+}
+/* .page-container::-webkit-scrollbar {
+    width: 0.8em;
+    left:10px;
+    position: absolute;
+}
+
+.page-container::-webkit-scrollbar-thumb {
+    border-radius: 20px;
+    background-color: rgb(51, 51, 51);
+    padding: 5px;
+} */

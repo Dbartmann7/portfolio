@@ -1,0 +1,60 @@
+.sliding-menu-container{
+    height:calc(100vh - 20px);
+    min-width: calc(100vw - 20px);
+    padding:10px;
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    top:0;
+    left: 100%;
+    
+    background-color: var(--appBackground);
+    z-index: 9999;
+}
+@keyframes slide-in{
+    from {left: 100%}
+    to {left: 0}
+}
+
+@keyframes slide-out {
+    from {left: 0}
+    to {left: 100%}
+}
+.sliding-menu-close-transition{
+    animation: slide-out 0.8s;
+    left:100%;
+}
+.sliding-menu-open-transition{
+    animation: slide-in 0.8s;
+    left:0;
+}
+
+.sliding-menu-header{
+    min-height:10%;
+    display: flex;
+    justify-content: flex-end;
+}
+.sliding-menu-hamburger-button{
+    &:hover{
+        background-color: var(--appBackground);
+    }
+}
+
+.sliding-window-nav{
+    flex-direction: column;
+    width: calc(100% - 20px) !important;
+    padding-left: 10px;
+    padding-right:10px;
+    height: 80vh;
+    justify-content: flex-start;
+    gap:20px;
+  
+}
+.sliding-window-nav>div{
+    width: 90%;
+    height:20%;
+    border-bottom: 1px white solid;
+    &:hover{
+        background-color: var(--appBackground);
+    }
+}

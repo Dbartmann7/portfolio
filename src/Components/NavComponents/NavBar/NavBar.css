@@ -1,0 +1,12 @@
+.cur-nav{
+    border-bottom: 2px solid red;
+
+}
+
+
+.nav-link-container{
+    &:hover{
+        border-bottom: 2px solid red;
+       
+    }
+}
