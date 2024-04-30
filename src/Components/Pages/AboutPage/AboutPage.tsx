@@ -5,7 +5,7 @@ import SlidingMenu from "../../NavComponents/SlidingMenu/SlidingMenu";
 import { links } from "../../Router/BrowserRouter";
 import PageHeader from "../PageHeader/PageHeader";
 import '../Page.css'
-import About from "./About";
+import About from "./About/About";
 function AboutPage() {
     
     const [isSlidingMenuOpen, setIsSlidingMenuOpen] = useState<boolean>(false)

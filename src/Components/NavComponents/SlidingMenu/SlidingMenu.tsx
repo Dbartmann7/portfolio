@@ -22,7 +22,7 @@ function SlidingMenu({isOpen,setIsOpen, links}:SlidingMenuPropsType){
             <header className="sliding-menu-header">
                 <HamburgerBtn className={"sliding-menu-hamburger-button"} clickFn={() => {setIsOpen(false)}}/>
             </header>
-            <NavBar className="sliding-window-nav" links={links} curLocation={curLocation.pathname}/>
+            <NavBar className="sliding-window-nav" links={links} curLocation={curLocation.pathname} style={{fontSize:'20px'}}/>
         </div>
     )
 }

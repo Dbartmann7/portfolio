@@ -8,13 +8,14 @@ import NavLink from "../../Router/NavLink"
 type NavBarPropsType = {
     className?:string,
     links:NavLinkObjType[],
-    curLocation:string
+    curLocation:string,
+    style?:CSSProperties
 }
 
-function NavBar({ className, links, curLocation}:NavBarPropsType){
+function NavBar({ className, links, curLocation, style}:NavBarPropsType){
 
     return(
-        <nav className={`${className} nav-container`}>
+        <nav className={`${className} nav-container`} style={style}>
             {links.map((linkObj, i) => {
                 return <NavLink key={i} to={linkObj.to} label={linkObj.label} className={
                     linkObj.to === curLocation ? 'cur-nav': '' 

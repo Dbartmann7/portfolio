@@ -1,6 +1,7 @@
 body {
   margin: 0;
-  --appBackground: rgb(25, 25, 25);
+  --appBackground: rgb(0, 0, 0);
+  /* background: linear-gradient(90deg, rgba(1,70,135,1) 55%, rgba(0,32,61,1) 100%); */
   background-color: var(--appBackground);
   min-height: 100vh;
   min-width: 100vw;

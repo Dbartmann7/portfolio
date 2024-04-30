@@ -1,0 +1,28 @@
+.about-container{
+    width:100%;
+    min-height:500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.about-main{
+    width: 80%;
+}
+.about-title{
+    font-size:5em;
+}
+.about-text{
+    font-size:25px;
+    word-spacing: 5px;
+    line-height: 1.4;
+}
+.media-links{
+    display: flex;
+    flex-direction: row;
+    gap:20px;
+    padding-top: 50px;
+}
+.media-link{
+    width: 25px;
+    height: 25px;
+}
