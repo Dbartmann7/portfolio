@@ -11,7 +11,8 @@ function About() {
             About Me
         </h1>
         <p className='about-text'>
-          I'm a Programmer based in Livingston with a great interest in Web Development.          
+          I'm an Enthusiastic Software Developer based in West Lothain passionate about Web Development.<br/>
+          I graduated from Heriot Watt University with a First Class Honours Degree and i'm looking for opportunities to start my professional career.          
         </p>
         <div className='media-links'>
           <ExternalLink url='https://www.linkedin.com/in/daniel-bartmann-6b6680195/' Icon={FaLinkedinIn} className='media-link'/>

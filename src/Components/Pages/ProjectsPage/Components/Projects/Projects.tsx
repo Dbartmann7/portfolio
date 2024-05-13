@@ -15,7 +15,6 @@ export type ProjectsDataType = {
 }
 
 export const projects:ProjectsDataType[] = [
-    {imgsrc:chatAppImg, name:'Chat App', description:'A real-time chat application developed using Javascript, React, Express and MongoDB', url:'https://www.youtube.com', github:'https://github.com/Dbartmann7/Chat-App', skills:['javascript', 'react', 'express', 'mongoDB', 'mongoose']},
-    {imgsrc:weatherAppImg, name:'Weather App', description:'A weather app that ', url:'https://dbartmann7.github.io/improved-web-app/', github:'https://github.com/Dbartmann7/improved-web-app', skills:['typescript', 'react', 'next', 'WeatherAPI']},
-    {imgsrc:'', name: "Music Review App", description: "Still in development. A website that uses the Spotify APi that allows users to rate and review albums", github:'',skills:['typescript', 'tailwind', 'react', 'next', 'SpotifyAPI', 'mongodb', 'mongoose']}
+    {imgsrc:chatAppImg, name:'Chat App', description:'A real-time chat application developed using Javascript, React, Express and MongoDB', url:'https://chat-app-production-46ba.up.railway.app/', github:'https://github.com/Dbartmann7/Chat-App', skills:['javascript', 'react', 'express', 'mongoDB', 'mongoose']},
+    {imgsrc:weatherAppImg, name:'Weather App', description:'A weather app that fetches weather data from weatherAPI.com and displays it to the user', url:'https://weather-app-production-a04d.up.railway.app', github:'https://github.com/Dbartmann7/improved-web-app', skills:['typescript', 'react', 'next', 'RestAPI']},
 ]
