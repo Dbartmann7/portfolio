@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.11d64022.css",
-    "main.js": "/portfolio/static/js/main.b88efbf0.js",
+    "main.js": "/portfolio/static/js/main.a2993f73.js",
     "static/media/Weather_App.png": "/portfolio/static/media/Weather_App.09a031a5c1ee60d5e058.png",
     "static/media/Chat_App.png": "/portfolio/static/media/Chat_App.8ae0051885e3f7cdccd5.png",
     "index.html": "/portfolio/index.html",
     "main.11d64022.css.map": "/portfolio/static/css/main.11d64022.css.map",
-    "main.b88efbf0.js.map": "/portfolio/static/js/main.b88efbf0.js.map"
+    "main.a2993f73.js.map": "/portfolio/static/js/main.a2993f73.js.map"
   },
   "entrypoints": [
     "static/css/main.11d64022.css",
-    "static/js/main.b88efbf0.js"
+    "static/js/main.a2993f73.js"
   ]
 }
